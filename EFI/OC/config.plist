@@ -44,14 +44,6 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-EC-USBX.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-UIAC.aml</string>
                 </dict>
             </array>
@@ -860,8 +852,6 @@
                 <true/>
                 <key>PowerTimeoutKernelPanic</key>
                 <true/>
-                <key>SetApfsTrimTimeout</key>
-                <integer>0</integer>
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
@@ -1286,8 +1276,6 @@
             </dict>
             <key>Quirks</key>
             <dict>
-                <key>DisableSecurityPolicy</key>
-                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>IgnoreInvalidFlexRatio</key>
