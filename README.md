@@ -18,7 +18,7 @@
 
 主板 VULCAN JinGang GTX (Standard)
 
-网卡 1、Intel(R) Dual Band Wireless-AC 8265
+网卡 现网卡替换为博通dw1560(原网卡为Intel(R) Dual Band Wireless-AC 8265)
 
 2、Realtek PCIe GBE Family Controller
 
@@ -35,8 +35,9 @@
 #目前设备驱动状况
 |设备|状态||
 |---|---|---|
-|蓝牙|正常||
-|WIFI|正常||
+|蓝牙|正常|正常|
+|WIFI|正常|正常|
 |集显|正常|HD 630|
 |电池|暂未驱动||
-|随航|无法使用|
+|随航|正常|
+#目前设备驱动状况
